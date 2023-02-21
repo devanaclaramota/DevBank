@@ -1,0 +1,25 @@
+{
+  "name": "devbank",
+  "version": "1.0.0",
+  "description": "Página de um banco virtual, contendo itens animados, formulários e toda aplicação para cadastro do usuário.",
+  "scripts": {
+    "build": "parcel build  src/index.html",
+    "dev": "parcel src/index.html src/css/styles.scss src/scripts/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devanaclaramota/DevBank.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devanaclaramota/DevBank/issues"
+  },
+  "homepage": "https://github.com/devanaclaramota/DevBank#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}

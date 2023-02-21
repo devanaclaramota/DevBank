@@ -1,0 +1,78 @@
+.conta{
+    display: flex;
+    .imagem{
+         position: relative;
+        img{
+           
+            height: 700px;
+        }
+        ul{
+              
+        .seta{
+            position: absolute;
+            top: 500;
+            right: 0;
+            bottom: 0;
+            left: 300;
+            color:#43fa00;
+            font-size: 4em;
+            
+
+        }
+        .check{
+            position: absolute;
+            top: 350;
+            right: 0;
+            bottom: 200;
+            left: 400;
+            color:#43fa00;
+            font-size: 4em;
+         
+        }
+        .heart{
+            position: absolute;
+            top: 200;
+            right: 50;
+            bottom: 10;
+            left: 280;
+            color:#43fa00;
+            font-size: 4em;
+            
+        }
+        
+    }
+    }
+    .informations{
+        h2{
+            color: #43fa00;
+            font-size: 4em;
+        }
+        p{
+            width: 70%;
+            font-size: 1.1em;
+            color: rgb(57, 57, 57);
+        }
+        li{
+            display: flex;
+            align-items: center;
+            .icon{
+                width: 80px;
+                height: 80px;
+                background-color: rgb(243, 242, 242);
+                box-shadow: 1 2 10 #43fa00;
+                font-size: 2.2em;
+                color: #43fa00;
+               padding: 10px;
+            }
+            .text{
+                padding: 40px;
+                h3{
+                    color: #43fa00;
+                }
+                p{
+                    color: #575757;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-title{
+     color: #43FA00;
+     padding: 34px;
+
+    }
+    .btn-mobile{
+        display: none;
+    }
+    
+    &-menu{
+        width: 70%;
+        display: flex;
+        
+    }
+    &-menu-list{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    &-menu-item{
+       font-size: 1em;
+        padding: 34px;
+       
+        &-sub{
+            font-weight: lighter;
+            display: none; 
+        }
+        a{
+            color: black;
+             font-size: 1.3em;
+             text-decoration: none;
+             i{
+                  color: #43FA00;
+             }
+         }
+    }
+     i{
+            color: #43FA00;
+        }
+   .login{
+            width: 90%;
+            background-color: #43FA00;
+            padding: 34px;
+            a{ background-color: white;
+                color:#43FA00;
+                font-size: 1.3em;
+                padding: 14px;
+                text-decoration: none;
+                border-radius: 8px;
+                color: black;
+                margin-left: 70%;
+                &:hover{
+                    border-radius: 15px;
+                }
+            }
+
+        }
+}
+
